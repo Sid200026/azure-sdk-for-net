@@ -58,7 +58,7 @@ public class PlaywrightServiceSetup : PlaywrightServiceNUnit {};
 ```
 
 > [!NOTE]
-> Make sure your project uses `Microsoft.Playwright.NUnit` version 1.37 or above.
+> Make sure your project uses `Microsoft.Playwright.NUnit` version 1.47 or above.
 
 ### Obtain region endpoint
 
@@ -74,7 +74,7 @@ Ensure that the `PLAYWRIGHT_SERVICE_URL` that you obtained in previous step is a
 
 ### Authenticate the client
 
-To learn more about options for Microsoft Entra Id authentication, refer to [Azure.Identity credentials](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/identity/Azure.Identity#credentials). You can also refer to [our samples]<!--(https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/playwrighttesting/Azure.Developer.MicrosoftPlaywrightTesting.NUnit/samples/Sample1_CustomisingServiceParameters.md)--> on how to configurate different Azure Identity credentials.
+To learn more about options for Microsoft Entra Id authentication, refer to [Azure Identity credentials](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/identity/Azure.Identity#credentials). You can also refer to [our samples]<!--(https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/playwrighttesting/Azure.Developer.MicrosoftPlaywrightTesting.NUnit/samples/Sample1_CustomisingServiceParameters.md)--> on how to configurate different Azure Identity credentials.
 
 ### Run the tests
 
